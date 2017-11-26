@@ -1,0 +1,40 @@
+/* Selektor znacznik */
+p {
+    color : orangered;
+}
+#paragraph {
+    color: deeppink;
+}
+/* laczenie Selektorow */
+a, span, div {
+    color: greenyellow;
+}
+
+li > a {
+    color: red;
+}
+div a {
+    color: aqua;
+}
+
+/* Selektor bliskiego rodzenstwa */
+
+h2 + h3 {
+    color: deepskyblue
+}
+
+/* Selektor Rodzenstwa*/
+
+h4  ~ p {
+    color: bisque;
+}
+
+ul > li:not(.last) {
+    color: rebeccapurple;
+}
+
+/* Selektor kolejnego elementu pototmnego */
+
+ul > ol:nth-child(2n+1){
+    color:antiquewhite;
+}
